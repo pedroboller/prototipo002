@@ -1,0 +1,377 @@
+html{
+    width: 100%;
+}
+.cabeça{
+    width: 100%;
+    height: 25vh;
+    background-color: var(--laranja);
+    margin-bottom: 0.37em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.marca{
+    display: flex;
+    justify-content: space-between;
+    height: 17vh;
+}
+.logo{
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    transition: all 0.5s;
+    background-image: url(/src/imgs/logo.png);
+    background-size: cover;
+    transform: translateY(-1em);
+}
+.titulo{
+    color: var(--texto);
+    font-family: 'Instrument Serif', serif;
+    font-size: 5em;
+    margin-top: 1%;
+    width: 47vw;
+    height: 10vh;
+    transition: all 0.5s;
+}
+.menu{
+    margin-bottom: 1%;
+}
+.menu li {
+    min-width: 5%;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.3em;
+    transition: all 0.3s;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.25em;
+}
+.filolist{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76vw;
+}
+#filosofos {
+    display: flex;
+    flex-direction: column;
+    background-color: #adababa1;
+    height: 0;
+    overflow: hidden;
+    width: 10em;
+    position: absolute;
+    transition: all 0.2s;
+    border-radius: 0.7em;
+}
+#filosofos a{
+    overflow-y: hidden;
+    margin-left: 4%;
+}
+#filo{
+    width: 4.7em;
+}
+#theme{
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    height: 1.5em;
+}
+#theme:hover{
+    filter: invert(100%);
+    cursor: pointer;
+}
+.logo_titulo{
+    display: flex;
+}
+
+@media screen and (max-width:1124px){
+    .titulo{
+        font-size: 4.9em;
+    }
+}
+@media screen and (max-width:1103px){
+    .titulo{
+        font-size: 4.8em;
+    }
+}
+@media screen and (max-width:1080px){
+    .titulo{
+        font-size: 4.7em;
+    }
+}
+@media screen and (max-width:1058px){
+    .titulo{
+        font-size: 4.6em;
+    }
+}
+@media screen and (max-width:1035px){
+    .titulo{
+        font-size: 4.5em;
+    }
+}
+@media screen and (max-width:1013px){
+    .titulo{
+        font-size: 4.4em;
+    }
+}
+@media screen and (max-width:991px){
+    .titulo{
+        font-size: 4.3em;
+    }
+}
+@media screen and (max-width:969px){
+    .titulo{
+        font-size: 4.2em;
+    }
+}
+@media screen and (max-width:947px){
+    .titulo{
+        font-size: 4.1em;
+    }
+}
+@media screen and (max-width:925px){
+    .titulo{
+        font-size: 4.0em;
+    }
+}
+@media screen and (max-width:899px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 3.7em;
+    }
+}
+@media screen and (max-width:833px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 3.5em;
+    }
+}
+@media screen and (max-width:787px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 3.3em;
+    }
+}
+@media screen and (max-width:743px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 3.1em;
+    }
+}
+@media screen and (max-width:698px){
+    .titulo{
+        margin-top: 7%;
+        font-size: 2.9em;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 8.6em;
+        height: 8.6em;
+    }
+    .marca{
+        height: 12vh;
+    }
+    .cabeça{
+        height: 19vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 18%;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:652px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 2.7em;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 8.6em;
+        height: 8.6em;
+    }
+    .marca{
+        height: 12vh;
+    }
+    .cabeça{
+        height: 19vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 18%;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:607px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 2.5em;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 8.6em;
+        height: 8.6em;
+    }
+    .marca{
+        height: 12vh;
+    }
+    .cabeça{
+        height: 19vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 18%;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:562px){
+    .titulo{
+        margin-top: 5%;
+        font-size: 2.3em;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 8.6em;
+        height: 8.6em;
+    }
+    .marca{
+        height: 12vh;
+    }
+    .cabeça{
+        height: 19vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 18%;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:525px){
+    .titulo{
+        margin-top: 7%;
+        font-size: 2.1em;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 8.6em;
+        height: 8.6em;
+    }
+    .marca{
+        height: 12vh;
+    }
+    .cabeça{
+        height: 19vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 18%;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:485px){
+    .titulo{
+        font-size: 3.9vb;
+        margin-top: 7%;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 7.6em;
+        height: 7.6em;
+    }
+    .marca{
+        height: 10vh;
+    }
+    .cabeça{
+        height: 17vh;
+    }
+    .filolist{
+        width: 80vw;
+        justify-content: space-evenly;
+    }
+    .menu li{
+        min-width: 20%;
+        font-size: 0.6em;
+        justify-content: space-evenly;
+    }
+    #theme{
+        padding-right: 1.5%;
+        padding-top: 2.5%;
+    }
+}
+@media screen and (max-width:280px){
+    .titulo{
+        font-size: 3.9vb;
+        margin-top: 7%;
+    }
+    .logo{
+        margin-top: 0%;
+        width: 7.6em;
+        height: 7.6em;
+    }
+    .marca{
+        height: 10vh;
+    }
+    .cabeça{
+        height: 17vh;
+    }
+    .filolist{
+        width: 93vw;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    .menu li{
+        min-width: 10%;
+        font-size: 0.5em;
+        justify-content: space-evenly;
+        padding-left: 0;
+    }
+    #theme{
+        padding-right: 1.5%;
+        padding-top: 2.5%;
+    }
+}

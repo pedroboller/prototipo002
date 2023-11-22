@@ -1,0 +1,66 @@
+.conteiner_filosofo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.left{
+    margin-right: 2%;
+}
+.foto{
+    width: 22vw;
+    height: 45vh;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    background-size: cover;
+    transition: transform 0.3s;
+}
+.foto:hover{
+    transform: scale(1.09);
+}
+.videos{
+    width: 22vw;
+    height: 19vh;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    margin-top: 5vh;
+    display: flex;  
+    flex-direction: column;     
+    align-items: center;    
+   
+}
+.videos a{
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43vw;
+    padding: 0.3em;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    height: 5vh;
+    color: var(--preto);
+    font-size: 30px;
+}
+.texto{
+    width: 40vw;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    font-size: 20px;
+    padding: 0.6em;
+    margin-top: 3vh;
+    height: 55vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    color: var(--preto);   
+    padding: 30px;
+}
+.texto::-webkit-scrollbar {width: 0! important}
+.frase{
+    display: flex;
+    justify-content: center;
+}

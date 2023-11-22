@@ -1,0 +1,79 @@
+.galeria {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, 11.7vw);
+    gap: 0.25em;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.galeria a:not(.div9){
+    transition: transform 0.5s;
+   
+    background-size: cover ;
+}
+.galeria a:hover{
+    transform: scale(1.2);
+}
+.div1 { 
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url(/src/imgs/filosofos/anaximandro.png);
+    background-position: 0px 0px;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(/src/imgs/filosofos/Anaxágoras\ de\ Clazômenas.png);
+    background-position: 0px -2.2em;
+}
+.div3 { 
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(/src/imgs/filosofos/Anaxímenes.png);
+    background-position: 0px -2.55em;
+}
+.div4 { 
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url(/src/imgs/filosofos/Demócrito\ de\ Abdera.png);
+    background-position: 0px 0px;
+}
+.div5 { 
+    grid-area: 3 / 2 / 4 / 3;
+    background-image: url(/src/imgs/filosofos/Heraclito\ de\ Efeso.png);
+    background-position: 0px -2.2em;
+}
+.div6 { 
+    grid-area: 3 / 1 / 4 / 2;
+    background-image: url(/src/imgs/filosofos/leucipo.png);
+    background-position: 0px -7em;
+}
+.div7 { 
+    grid-area: 1 / 5 / 3 / 6;
+    background-image: url(/src/imgs/filosofos/Parmênides\ de\ Eléia.png);
+    background-position: 0px 0px;
+}
+.div8 { 
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url(/src/imgs/filosofos/pitagoras.png);
+    background-position: 0px 0px;
+}
+.div9 { 
+    grid-area: 3 / 5 / 4 / 6;
+    background-image: url(/src/imgs/logo.png);
+    background-position: 0px -3.45em;
+    background-size: cover ;
+    transition: transform 0.5s;
+}
+.div10 { 
+    grid-area: 2 / 4 / 4 / 5;
+    background-image: url(/src/imgs/filosofos/tales.png);
+    background-position: 0px 0px;
+}
+.div11 { 
+    grid-area: 2 / 3 / 3 / 4;
+    background-image: url(/src/imgs/filosofos/Xenófanes\ de\ Colofão.png);
+    background-position: 0px -2.8em;
+}
+.div12 { 
+    grid-area: 3 / 3 / 4 / 4;
+    background-image: url(/src/imgs/filosofos/Zenão\ de\ Eléia.png);
+    background-position: 0px -4.05em;
+}

@@ -1,0 +1,74 @@
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.espaco{
+    height: 0.6em;
+}
+.info_nos{
+    width: 100%;
+}
+.foto{
+    height: 45vh;
+    width: 25vw;
+    background-size: cover;
+}
+.fotos{
+    display: flex;
+    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+}
+.fotoana{
+    background-image: url(/src/imgs/fotos/ana.jpg);
+    margin-left:0.6em;
+    margin-right: 0.6em;
+    
+}
+.fotopedro{
+    background-image: url(/src/imgs/fotos/boller.jfif);
+    
+}
+.fotomegel{
+    background-image: url(/src/imgs/fotos/megel.jfif);
+    background-position: 0px -9.4em;
+}
+.cont-nom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nome{
+    color: var(--preto);
+    height: 3vh;
+    width: 10vw;
+    font-family: 'Playfir Display', serif;
+    font-size: 12px;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    padding: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    color: var(--preto);
+    height: 25vh;
+    width: 50vw;
+    font-family: 'Playfir Display', serif;
+    font-size: 20px;
+    background-color: var(--fundo);
+    border-radius: 0.6em;
+    padding: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
